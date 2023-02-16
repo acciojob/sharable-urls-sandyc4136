@@ -10,7 +10,7 @@ function sharableURL(event){
 	event.preventDefault();
 	var h3Element="https://localhost:8080/";
 	if(named.value && year.value){
-		h3Element += "?name=" + named.value + "&?year=" + year.value;
+		h3Element += "?name=" + named.value + "&year=" + year.value;
 	}
 	else if(!named.value && year.value){
 		h3Element += "?year=" + year.value;
